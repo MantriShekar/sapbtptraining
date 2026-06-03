@@ -14,4 +14,7 @@ npm i -g sqlite@latest
 -cmd : git init
 -cmd : git status
 -cmd : git add
+-cmd : git status
 -cmd : git commit -m
+
+Northwind and OData Services Integration
