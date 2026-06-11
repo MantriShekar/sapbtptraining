@@ -1,0 +1,37 @@
+
+
+GET http://localhost:4004/BusinessPartners/BusinessPartners HTTP/1.1
+Accept: application/json
+
+###################
+
+POST http://localhost:4004/BusinessPartners/BusinessPartners HTTP/1.1
+Content-Type: application/json
+
+  {
+      "businessPartnerNumber": "98200",
+      "vendorCode": "",
+      "customerCode": "11",
+      "businessPartnerName1": "string"
+     }
+
+####################
+
+GET http://localhost:4004/odata/v4/internal-services/salesorderheader HTTP/1.1
+      
+###################
+
+POST http://localhost:4004/odata/v4/internal-services/salesorderheader
+Accept : application/json
+Content-Type: application/json
+
+{
+  "customerid": "testhttp",
+  "distributionchannel": "ZZ",
+  "division": "ZZ",
+  "salesorderdate": "2026-06-10",
+  "salesorderstatus": "Pending",
+  "salesordertype": "AA",
+  "salesorganization": "BMS",
+  "totalamount": "125.00"
+}  

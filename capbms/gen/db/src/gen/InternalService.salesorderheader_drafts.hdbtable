@@ -1,0 +1,20 @@
+COLUMN TABLE InternalService_salesorderheader_drafts (
+  createdAt TIMESTAMP NULL,
+  createdBy NVARCHAR(50) NULL,
+  lastChangedAt TIMESTAMP NULL,
+  lastChangedBy NVARCHAR(50) NULL,
+  salesorderid NVARCHAR(36) NOT NULL,
+  salesorderdate DATE NULL,
+  customerid NVARCHAR(10) NULL,
+  totalamount DECIMAL(15, 2) NULL,
+  salesordertype NVARCHAR(20) NULL,
+  salesorderstatus NVARCHAR(5000) NULL DEFAULT 'Pending',
+  salesorganization NVARCHAR(10) NULL,
+  distributionchannel NVARCHAR(10) NULL,
+  division NVARCHAR(10) NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(salesorderid)
+)

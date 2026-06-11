@@ -1,0 +1,13 @@
+VIEW InternalService_salesorderitem AS SELECT
+  salesorderitem_0.createdAt,
+  salesorderitem_0.createdBy,
+  salesorderitem_0.lastChangedAt,
+  salesorderitem_0.lastChangedBy,
+  salesorderitem_0.salesorderitemid,
+  salesorderitem_0.salesorderid,
+  salesorderitem_0.productid,
+  salesorderitem_0.quantity,
+  salesorderitem_0.unitprice,
+  salesorderitem_0.totalprice,
+  salesorderitem_0.soheader_salesorderid
+FROM bms_cap_salesorderitem AS salesorderitem_0

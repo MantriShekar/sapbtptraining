@@ -1,0 +1,7 @@
+COLUMN TABLE bms_cap_errorlog (
+  logid NVARCHAR(36) NOT NULL,
+  errormessage NVARCHAR(255),
+  errorcode NVARCHAR(20),
+  loggedat TIMESTAMP,
+  PRIMARY KEY(logid)
+)

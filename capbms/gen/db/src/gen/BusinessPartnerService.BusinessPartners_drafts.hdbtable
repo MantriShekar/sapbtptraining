@@ -1,0 +1,11 @@
+COLUMN TABLE BusinessPartnerService_BusinessPartners_drafts (
+  businessPartnerNumber NVARCHAR(10) NOT NULL,
+  vendorCode NVARCHAR(20) NULL,
+  customerCode NVARCHAR(20) NULL,
+  businessPartnerName1 NVARCHAR(100) NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(businessPartnerNumber)
+)

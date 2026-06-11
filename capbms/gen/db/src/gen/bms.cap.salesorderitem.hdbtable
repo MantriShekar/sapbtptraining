@@ -1,0 +1,14 @@
+COLUMN TABLE bms_cap_salesorderitem (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(50),
+  lastChangedAt TIMESTAMP,
+  lastChangedBy NVARCHAR(50),
+  salesorderitemid NVARCHAR(36) NOT NULL,
+  salesorderid NVARCHAR(36),
+  productid NVARCHAR(10),
+  quantity DECIMAL(15, 2),
+  unitprice DECIMAL(15, 2),
+  totalprice DECIMAL(15, 2),
+  soheader_salesorderid NVARCHAR(36),
+  PRIMARY KEY(salesorderitemid)
+)

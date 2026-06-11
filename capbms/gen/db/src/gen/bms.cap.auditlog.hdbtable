@@ -1,0 +1,10 @@
+COLUMN TABLE bms_cap_auditlog (
+  logid NVARCHAR(36) NOT NULL,
+  entityname NVARCHAR(50),
+  entityid NVARCHAR(50),
+  operation NVARCHAR(10),
+  changedby NVARCHAR(50),
+  changedat TIMESTAMP,
+  changeddetails NVARCHAR(255),
+  PRIMARY KEY(logid)
+)

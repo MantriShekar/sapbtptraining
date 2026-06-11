@@ -1,0 +1,1 @@
+using InternalService as service from '../../srv/internal-services';

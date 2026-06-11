@@ -1,0 +1,7 @@
+COLUMN TABLE BusinessPartnerService_BusinessPartners (
+  businessPartnerNumber NVARCHAR(10) NOT NULL,
+  vendorCode NVARCHAR(20),
+  customerCode NVARCHAR(20),
+  businessPartnerName1 NVARCHAR(100),
+  PRIMARY KEY(businessPartnerNumber)
+)

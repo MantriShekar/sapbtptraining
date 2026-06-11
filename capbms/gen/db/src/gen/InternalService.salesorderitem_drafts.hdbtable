@@ -1,0 +1,18 @@
+COLUMN TABLE InternalService_salesorderitem_drafts (
+  createdAt TIMESTAMP NULL,
+  createdBy NVARCHAR(50) NULL,
+  lastChangedAt TIMESTAMP NULL,
+  lastChangedBy NVARCHAR(50) NULL,
+  salesorderitemid NVARCHAR(36) NOT NULL,
+  salesorderid NVARCHAR(36) NULL,
+  productid NVARCHAR(10) NULL,
+  quantity DECIMAL(15, 2) NULL,
+  unitprice DECIMAL(15, 2) NULL,
+  totalprice DECIMAL(15, 2) NULL,
+  soheader_salesorderid NVARCHAR(36) NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(salesorderitemid)
+)

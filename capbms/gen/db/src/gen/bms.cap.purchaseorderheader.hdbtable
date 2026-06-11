@@ -1,0 +1,14 @@
+COLUMN TABLE bms_cap_purchaseorderheader (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(50),
+  lastChangedAt TIMESTAMP,
+  lastChangedBy NVARCHAR(50),
+  purchaseorderid NVARCHAR(36) NOT NULL,
+  purchaseorderdate DATE,
+  supplierid NVARCHAR(10),
+  totalamount DECIMAL(15, 2),
+  purchaseordertype NVARCHAR(20),
+  purchaseorderstatus NVARCHAR(5000) DEFAULT 'Pending',
+  purchasinggroup NVARCHAR(10),
+  PRIMARY KEY(purchaseorderid)
+)

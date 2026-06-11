@@ -1,0 +1,8 @@
+COLUMN TABLE bms_cap_material (
+  materialid NVARCHAR(10) NOT NULL,
+  materialcode NVARCHAR(20),
+  materialdescription NVARCHAR(255),
+  materialgroup NVARCHAR(10),
+  plant NVARCHAR(10),
+  PRIMARY KEY(materialid)
+)

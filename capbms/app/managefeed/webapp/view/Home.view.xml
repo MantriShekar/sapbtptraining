@@ -1,0 +1,6 @@
+<mvc:View controllerName="com.fee.managefeed.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="hpage" title="{i18n>title}">
+    </Page>
+</mvc:View>

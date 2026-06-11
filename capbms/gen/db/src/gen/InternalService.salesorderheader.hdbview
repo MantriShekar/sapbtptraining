@@ -1,0 +1,15 @@
+VIEW InternalService_salesorderheader AS SELECT
+  salesorderheader_0.createdAt,
+  salesorderheader_0.createdBy,
+  salesorderheader_0.lastChangedAt,
+  salesorderheader_0.lastChangedBy,
+  salesorderheader_0.salesorderid,
+  salesorderheader_0.salesorderdate,
+  salesorderheader_0.customerid,
+  salesorderheader_0.totalamount,
+  salesorderheader_0.salesordertype,
+  salesorderheader_0.salesorderstatus,
+  salesorderheader_0.salesorganization,
+  salesorderheader_0.distributionchannel,
+  salesorderheader_0.division
+FROM bms_cap_salesorderheader AS salesorderheader_0

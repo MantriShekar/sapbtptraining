@@ -1,0 +1,6 @@
+COLUMN TABLE NorthwindService_Customers (
+  CustomerID NVARCHAR(5000) NOT NULL,
+  CompanyName NVARCHAR(5000),
+  Country NVARCHAR(5000),
+  PRIMARY KEY(CustomerID)
+)

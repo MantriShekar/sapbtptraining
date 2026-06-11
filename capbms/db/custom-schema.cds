@@ -1,23 +1,24 @@
 namespace bms.cap;
  
-using { } from '@sap/cds/common';
+using {  } from '@sap/cds/common';
  
  
 //  custom aspects
+ aspect defaultentry {
  
-aspect defaultentry {
     @Common.Label: 'Created At'
-    // current timestamp in aspects
-    createdAt : Timestamp default current_timestamp;
+    createdAt : Timestamp @cds.on.insert : $now;
+ 
     @Common.Label: 'Created By'
-    // takes default user which created my sales/purchase order
-    createdBy : String(50) default $user;
+    createdBy : String(50) @cds.on.insert : $user;
+ 
     @Common.Label: 'Last Changed At'
-     // current timestamp in aspects
-    lastChangedAt : Timestamp @cds.on.update : $now;
+    lastChangedAt : Timestamp @cds.on.insert : $now
+                              @cds.on.update : $now;
+ 
     @Common.Label: 'Last Changed By'
-    // takes the user who ic trying to run update operations on sales/purchase order
-    lastChangedBy : String(50) @cds.on.update : $user;
+    lastChangedBy : String(50) @cds.on.insert : $user
+                               @cds.on.update : $user;
 }
  
  
@@ -45,7 +46,7 @@ entity salesorderheader : defaultentry {
  
     @Common : { Label : 'Sales Order ID' }
     key salesorderid : UUID;
-    @Common : { Label : 'Sales Odrer Date' }
+    @Common : { Label : 'Sales Order Date' }
     salesorderdate : Date;
  
     //  i wwould add from either odata api as customer entity  or create an entity  by using types
@@ -63,6 +64,9 @@ entity salesorderheader : defaultentry {
     distributionchannel : String(10);
      @Common : { Label : 'Division' }
     division : String(10);
+
+  //  soitems : composition of  many salesorderitem on soitems.salesorderid = $self.salesorderid;
+     soitems : Composition of many salesorderitem on soitems.soheader = $self;
 }
  
  
@@ -75,10 +79,12 @@ entity salesorderitem : defaultentry {
     quantity : Decimal(15,2);
     unitprice : Decimal(15,2);
     totalprice : Decimal(15,2);
+  //  soheader : Association to many salesorderheader on soheader.salesorderid = $self.salesorderid;
+    soheader : Association to salesorderheader;
 }
  
 //  materials
-@Capabilities.Deletable : false
+// @Capabilities.Deletable : false
 @title : 'Material'
 entity material {
     key materialid : String(10);
@@ -94,15 +100,13 @@ entity material {
 entity purchaseorderheader : defaultentry {
     key purchaseorderid : UUID;
     purchaseorderdate : Date;
- 
 //  i would add an odata supplier api for search help
     supplierid : String(10);
- 
- 
     totalamount : Decimal(15,2);
     purchaseordertype : String(20);
     purchaseorderstatus : status default 'Pending';
     purchasinggroup : String(10);
+    poitems : composition of  many purchaseorderitem on poitems.purchaseorderid = $self.purchaseorderid;
 }
  
 //  purchase order item
@@ -110,23 +114,22 @@ entity purchaseorderheader : defaultentry {
 entity purchaseorderitem : defaultentry {
     key purchaseorderitemid : UUID;
     purchaseorderid : UUID;
- 
     // Linked with material enbtity
     materialid : String(10);
- 
     quantity : Decimal(15,2);
     unitprice : Decimal(15,2);
     totalprice : Decimal(15,2);
+        poheader : Association to many purchaseorderheader on poheader.purchaseorderid = $self.purchaseorderid;
 }
  
  
 // Optional  
 //  error logs/traces logs
-@Capabilities : {
-    InsertRestrictions : { Insertable : false },
-    UpdateRestrictions : { Updatable : false },
-    DeleteRestrictions : { Deletable : false }
-}
+// @Capabilities : {
+//     InsertRestrictions : { Insertable : false },
+//     UpdateRestrictions : { Updatable : false },
+//     DeleteRestrictions : { Deletable : false }
+// }
 @title : 'Error Log'
 entity errorlog {
     key logid : UUID;

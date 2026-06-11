@@ -1,0 +1,16 @@
+COLUMN TABLE bms_cap_salesorderheader (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(50),
+  lastChangedAt TIMESTAMP,
+  lastChangedBy NVARCHAR(50),
+  salesorderid NVARCHAR(36) NOT NULL,
+  salesorderdate DATE,
+  customerid NVARCHAR(10),
+  totalamount DECIMAL(15, 2),
+  salesordertype NVARCHAR(20),
+  salesorderstatus NVARCHAR(5000) DEFAULT 'Pending',
+  salesorganization NVARCHAR(10),
+  distributionchannel NVARCHAR(10),
+  division NVARCHAR(10),
+  PRIMARY KEY(salesorderid)
+)

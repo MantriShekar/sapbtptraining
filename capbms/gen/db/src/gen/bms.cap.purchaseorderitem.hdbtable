@@ -1,0 +1,13 @@
+COLUMN TABLE bms_cap_purchaseorderitem (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(50),
+  lastChangedAt TIMESTAMP,
+  lastChangedBy NVARCHAR(50),
+  purchaseorderitemid NVARCHAR(36) NOT NULL,
+  purchaseorderid NVARCHAR(36),
+  materialid NVARCHAR(10),
+  quantity DECIMAL(15, 2),
+  unitprice DECIMAL(15, 2),
+  totalprice DECIMAL(15, 2),
+  PRIMARY KEY(purchaseorderitemid)
+)

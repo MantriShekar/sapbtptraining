@@ -1,0 +1,10 @@
+COLUMN TABLE NorthwindService_Invoices (
+  OrderID INTEGER NOT NULL,
+  CustomerID NVARCHAR(5000),
+  CustomerName NVARCHAR(5000),
+  ProductID INTEGER,
+  ProductName NVARCHAR(5000),
+  Quantity DECIMAL(15, 2),
+  UnitPrice DECIMAL(15, 2),
+  PRIMARY KEY(OrderID)
+)
