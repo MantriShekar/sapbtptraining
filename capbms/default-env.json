@@ -1,0 +1,24 @@
+default-env.json :
+ 
+ 
+ "VCAP_SERVICES":{
+
+"destinations": [
+    {
+      "name": "destination",
+      "label": "destination",
+      "credentials": {    
+        "destinations": [
+          {
+            "Name": "jsonplaceholder",
+            "Type": "HTTP",
+            "URL": "https://jsonplaceholder.typicode.com/users11",
+            "proxyType": "Internet",
+            "Authentication": "NoAuthentication"
+          }
+          ]}
+    }
+  ]
+ }
+
+  

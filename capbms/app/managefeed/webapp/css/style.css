@@ -1,1 +1,8 @@
 /* Enter your custom styles here */
+.customPageBg .sapMPageCont {
+    background:
+        linear-gradient(
+            rgba(139, 53, 131, 0.75),
+            rgba(139, 53, 131, 0.75)
+        ) !important;
+}

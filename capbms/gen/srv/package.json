@@ -1,0 +1,122 @@
+{
+  "name": "capbms",
+  "version": "1.0.0",
+  "description": "Training",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-businesspartner": "cds watch --open com.bp.businesspartner/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-salesorder": "cds watch --open com.so.salesorder/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-soh": "cds watch --open com.soh.soh/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-managefeed": "cds watch --open com.fee.managefeed/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "keywords": [
+    "SAP",
+    "CAP",
+    "HANA",
+    "CI/CD",
+    "CF",
+    "ODATA"
+  ],
+  "author": "Mantri Shekar",
+  "license": "MIT",
+  "dependencies": {
+    "@cap-js-community/odata-v2-adapter": "^1.15.12",
+    "@cap-js/hana": "^2.8.0",
+    "@cap-js/sqlite": "^2.4.0",
+    "@sap-cloud-sdk/http-client": "^4.7.0",
+    "@sap/approuter": "^22.0.1",
+    "@sap/cds": "^9.9.1",
+    "@sap/cds-dk": "^9.9.2",
+    "@sap/xssec": "^4.13.0",
+    "http-proxy-middleware": "^3.0.6"
+  },
+  "devDependencies": {
+    "@cap-js/cds-test": "^1",
+    "@sap/cds-dk": "^9",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana"
+      },
+      "uaa": {
+        "kind": "xsuaa"
+      },
+      "auth": {
+        "[development]": {
+          "strategy": "mock",
+          "users": {
+            "Shekar": {
+              "password": "shekar",
+              "roles": [
+                "AdminRole",
+                "ApproverRole"
+              ]
+            },
+            "Aditya": {
+              "password": "himanshu",
+              "roles": [
+                "ApproverRole"
+              ]
+            }
+          }
+        },
+        "[production]": {
+          "kind": "hana",
+          "auth": "xsuaa",
+          "strategy": "JWT"
+        }
+      },
+      "JSON_API": {
+        "kind": "rest",
+        "_comment": "Using BTP Destination JSON_API instead of hardcoded URL. Equivalent configuration: \"destination\": \"JSON_API\"",
+        "credentials": {
+          "_comment": "\"destination\": \"JSON_API\""
+        }
+      },
+      "analytics-db": {
+        "kind": "hana",
+        "model": "analytics-db/schema.cds",
+        "credentials": {
+          "binding": "capbms-analytics-db"
+        }
+      },
+      "[production]": {
+        "kind": "hana",
+        "auth": "xsuaa"
+      },
+      "Northwind": {
+        "kind": "odata",
+        "credentials": {
+          "url": "https://services.odata.org/V4/Northwind/Northwind.svc"
+        }
+      },
+      "BusinessPartners": {
+        "kind": "odata",
+        "credentials": {
+          "url": "https://sandbox.api.sap.com/PackagingAgreementsCollaboration/odata/v4/MasterDataService",
+          "headers": {
+            "APIKey": "7lj0CR5KqWlWPSBuFqLli0bOCGNshWCZ",
+            "Accept": "application/json"
+          }
+        }
+      }
+    }
+  },
+  "sapux": [
+    "app/businesspartner",
+    "app/salesorder",
+    "app/soh",
+    "app/managefeed"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

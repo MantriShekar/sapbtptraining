@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+  </edmx:Reference>
+  <edmx:DataServices m:DataServiceVersion="2.0">
+    <Schema Namespace="NorthwindService" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <Annotation Term="Core.Links" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Collection>
+          <Record>
+            <PropertyValue Property="rel" String="author"/>
+            <PropertyValue Property="href" String="https://cap.cloud.sap"/>
+          </Record>
+        </Collection>
+      </Annotation>
+      <EntityContainer Name="EntityContainer" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="Invoices" EntityType="NorthwindService.Invoices"/>
+        <EntitySet Name="Customers" EntityType="NorthwindService.Customers"/>
+        <EntitySet Name="Suppliers" EntityType="NorthwindService.Suppliers"/>
+      </EntityContainer>
+      <EntityType Name="Invoices">
+        <Key>
+          <PropertyRef Name="OrderID"/>
+        </Key>
+        <Property Name="OrderID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="CustomerID" Type="Edm.String"/>
+        <Property Name="CustomerName" Type="Edm.String"/>
+        <Property Name="ProductID" Type="Edm.Int32"/>
+        <Property Name="ProductName" Type="Edm.String"/>
+        <Property Name="Quantity" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="UnitPrice" Type="Edm.Decimal" Precision="15" Scale="2"/>
+      </EntityType>
+      <EntityType Name="Customers">
+        <Key>
+          <PropertyRef Name="CustomerID"/>
+        </Key>
+        <Property Name="CustomerID" Type="Edm.String" Nullable="false"/>
+        <Property Name="CompanyName" Type="Edm.String"/>
+        <Property Name="Country" Type="Edm.String"/>
+      </EntityType>
+      <EntityType Name="Suppliers">
+        <Key>
+          <PropertyRef Name="SupplierID"/>
+        </Key>
+        <Property Name="SupplierID" Type="Edm.Int32" Nullable="false"/>
+        <Property Name="CompanyName" Type="Edm.String"/>
+        <Property Name="Country" Type="Edm.String"/>
+      </EntityType>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

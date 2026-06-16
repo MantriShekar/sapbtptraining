@@ -17,13 +17,28 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/odata/v4/internal-services/",
+        "uri": "/odata/v2/internal-services/",
+        "odataVersion": "2.0",
         "type": "OData",
         "settings": {
           "annotations": [],
-          "odataVersion": "4.0"
+          "odataVersion": "2.0"
         }
+      },
+       "jsonApiService": {
+      "uri": "/odata/v4/json-api-services/",
+      "type": "OData",
+      "settings": {
+        "odataVersion": "4.0"
       }
+    },
+       "mainService1": {
+         "uri": "/odata/v4/businesspartner-services/",
+    "type": "OData",
+    "settings": {
+      "odataVersion": "4.0"
+    }
+  }
     }
   },
   "sap.ui": {
@@ -56,6 +71,24 @@
       "cozy": true
     },
     "models": {
+     "northwind": {
+    "dataSource": "mainService1",
+    "preload": true,
+    "settings": {
+      "operationMode": "Server",
+      "autoExpandSelect": true,
+      "earlyRequests": true
+    }
+  },
+   "jsonApi": {
+      "dataSource": "jsonApiService",
+      "preload": true,
+      "settings": {
+      "operationMode": "Server",
+      "autoExpandSelect": true,
+      "earlyRequests": true
+    }
+    },
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
@@ -92,18 +125,34 @@
         "viewPath": "com.fee.managefeed.view"
       },
       "routes": [
-        {
-          "name": "RouteView1",
-          "pattern": ":?query:",
-          "target": [
-            "TargetView1"
-          ]
-        }
+{
+  "pattern" :"",
+  "name": "RouteView1",
+  "target": ["TargetView1"]
+},
+{
+  "pattern" :"?query",
+  "name": "RouteView2",
+  "target": ["TargetView2"]
+},
+{
+  "pattern" :"?query1",
+  "name": "RouteView3",
+  "target": ["TargetView3"]
+}
       ],
       "targets": {
         "TargetView1": {
           "id": "View1",
           "name": "View1"
+        },
+         "TargetView2": {
+          "id": "Home",
+          "name": "Home"
+        },
+         "TargetView3": {
+          "id": "Destination",
+          "name": "Destination"
         }
       }
     },

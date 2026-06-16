@@ -1,0 +1,7 @@
+COLUMN TABLE JsonApiService_Users (
+  id INTEGER NOT NULL,
+  name NVARCHAR(5000),
+  username NVARCHAR(5000),
+  email NVARCHAR(5000),
+  PRIMARY KEY(id)
+)

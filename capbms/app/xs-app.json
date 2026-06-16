@@ -1,0 +1,33 @@
+{
+  "authenticationMethod": "route",
+  "sessionTimeout": 10,
+  "routes": [
+    {
+      "source": "^/managefeed/webapp/(.*)$",
+      "target": "$1",
+      "localDir": "managefeed/webapp/",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    },
+    {
+      "source": "^/odata/v4(.*)$",
+      "target": "/odata/v4/$1",
+      "destination": "srv-api",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    },
+
+    {
+      "source": "^/(.*)$",
+      "target": "$1",
+      "destination": "srv-api",
+      "authenticationType": "xsuaa",
+      "csrfProtection": true
+    }
+  ],
+  "logout": {
+    "logoutEndpoint": "/my/logout",
+    "logoutPage": "https://www.google.com"
+  },
+  "welcomeFile": "/managefeed/webapp/index.html"
+}

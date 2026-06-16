@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+    <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+    <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+    <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Validation.V1.xml">
+    <edmx:Include Alias="Validation" Namespace="Org.OData.Validation.V1"/>
+  </edmx:Reference>
+  <edmx:DataServices>
+    <Schema Namespace="InternalService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+      <Annotation Term="Core.Links">
+        <Collection>
+          <Record>
+            <PropertyValue Property="rel" String="author"/>
+            <PropertyValue Property="href" String="https://cap.cloud.sap"/>
+          </Record>
+        </Collection>
+      </Annotation>
+      <EntityContainer Name="EntityContainer">
+        <EntitySet Name="salesorderheader" EntityType="InternalService.salesorderheader">
+          <NavigationPropertyBinding Path="soitems" Target="salesorderitem"/>
+          <NavigationPropertyBinding Path="SiblingEntity" Target="salesorderheader"/>
+        </EntitySet>
+        <EntitySet Name="salesorderitem" EntityType="InternalService.salesorderitem">
+          <NavigationPropertyBinding Path="soheader" Target="salesorderheader"/>
+          <NavigationPropertyBinding Path="SiblingEntity" Target="salesorderitem"/>
+        </EntitySet>
+      </EntityContainer>
+      <EntityType Name="salesorderheader">
+        <Key>
+          <PropertyRef Name="salesorderid"/>
+          <PropertyRef Name="IsActiveEntity"/>
+        </Key>
+        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="createdBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="lastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="lastChangedBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="salesorderid" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="salesorderdate" Type="Edm.Date"/>
+        <Property Name="customerid" Type="Edm.String" MaxLength="10"/>
+        <Property Name="totalamount" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="salesordertype" Type="Edm.String" MaxLength="20"/>
+        <Property Name="salesorderstatus" Type="Edm.String" DefaultValue="Pending"/>
+        <Property Name="salesorganization" Type="Edm.String" MaxLength="10"/>
+        <Property Name="distributionchannel" Type="Edm.String" MaxLength="10"/>
+        <Property Name="division" Type="Edm.String" MaxLength="10"/>
+        <NavigationProperty Name="soitems" Type="Collection(InternalService.salesorderitem)" Partner="soheader">
+          <OnDelete Action="Cascade"/>
+        </NavigationProperty>
+        <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="true"/>
+        <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+        <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+        <NavigationProperty Name="DraftAdministrativeData" Type="InternalService.DraftAdministrativeData" ContainsTarget="true"/>
+        <NavigationProperty Name="SiblingEntity" Type="InternalService.salesorderheader"/>
+        <Property Name="DraftMessages" Type="Collection(InternalService.DRAFT_DraftAdministrativeData_DraftMessage)" Nullable="true"/>
+      </EntityType>
+      <EntityType Name="salesorderitem">
+        <Key>
+          <PropertyRef Name="salesorderitemid"/>
+          <PropertyRef Name="IsActiveEntity"/>
+        </Key>
+        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="createdBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="lastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="lastChangedBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="salesorderitemid" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="salesorderid" Type="Edm.Guid"/>
+        <Property Name="productid" Type="Edm.String" MaxLength="10"/>
+        <Property Name="quantity" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="unitprice" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="totalprice" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <NavigationProperty Name="soheader" Type="InternalService.salesorderheader" Partner="soitems">
+          <ReferentialConstraint Property="soheader_salesorderid" ReferencedProperty="salesorderid"/>
+        </NavigationProperty>
+        <Property Name="soheader_salesorderid" Type="Edm.Guid"/>
+        <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="true"/>
+        <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+        <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false" DefaultValue="false"/>
+        <NavigationProperty Name="DraftAdministrativeData" Type="InternalService.DraftAdministrativeData" ContainsTarget="true"/>
+        <NavigationProperty Name="SiblingEntity" Type="InternalService.salesorderitem"/>
+        <Property Name="DraftMessages" Type="Collection(InternalService.DRAFT_DraftAdministrativeData_DraftMessage)" Nullable="true"/>
+      </EntityType>
+      <EntityType Name="DraftAdministrativeData">
+        <Key>
+          <PropertyRef Name="DraftUUID"/>
+        </Key>
+        <Property Name="DraftUUID" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="CreationDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="CreatedByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="DraftIsCreatedByMe" Type="Edm.Boolean"/>
+        <Property Name="LastChangeDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="LastChangedByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="InProcessByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="DraftIsProcessedByMe" Type="Edm.Boolean"/>
+      </EntityType>
+      <ComplexType Name="DRAFT_DraftAdministrativeData_DraftMessage">
+        <Property Name="code" Type="Edm.String"/>
+        <Property Name="message" Type="Edm.String"/>
+        <Property Name="target" Type="Edm.String"/>
+        <Property Name="additionalTargets" Type="Collection(Edm.String)" Nullable="true"/>
+        <Property Name="transition" Type="Edm.Boolean"/>
+        <Property Name="numericSeverity" Type="Edm.Byte"/>
+        <Property Name="longtextUrl" Type="Edm.String"/>
+      </ComplexType>
+      <Action Name="draftPrepare" IsBound="true" EntitySetPath="in">
+        <Parameter Name="in" Type="InternalService.salesorderheader"/>
+        <Parameter Name="SideEffectsQualifier" Type="Edm.String"/>
+        <ReturnType Type="InternalService.salesorderheader"/>
+      </Action>
+      <Action Name="draftPrepare" IsBound="true" EntitySetPath="in">
+        <Parameter Name="in" Type="InternalService.salesorderitem"/>
+        <Parameter Name="SideEffectsQualifier" Type="Edm.String"/>
+        <ReturnType Type="InternalService.salesorderitem"/>
+      </Action>
+      <Action Name="draftActivate" IsBound="true" EntitySetPath="in">
+        <Parameter Name="in" Type="InternalService.salesorderheader"/>
+        <ReturnType Type="InternalService.salesorderheader"/>
+      </Action>
+      <Action Name="draftEdit" IsBound="true" EntitySetPath="in">
+        <Parameter Name="in" Type="InternalService.salesorderheader"/>
+        <Parameter Name="PreserveChanges" Type="Edm.Boolean"/>
+        <ReturnType Type="InternalService.salesorderheader"/>
+      </Action>
+      <Annotations Target="InternalService.EntityContainer">
+        <Annotation Term="Common.AddressViaNavigationPath" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader">
+        <Annotation Term="UI.LineItem">
+          <Collection>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderid"/>
+              <PropertyValue Property="Label" String="Sales Order ID"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderdate"/>
+              <PropertyValue Property="Label" String="Date"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="customerid"/>
+              <PropertyValue Property="Label" String="Customer"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="totalamount"/>
+              <PropertyValue Property="Label" String="Amount"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderstatus"/>
+              <PropertyValue Property="Label" String="Status"/>
+            </Record>
+          </Collection>
+        </Annotation>
+        <Annotation Term="UI.SelectionFields">
+          <Collection>
+            <PropertyPath>customerid</PropertyPath>
+            <PropertyPath>division</PropertyPath>
+            <PropertyPath>distributionchannel</PropertyPath>
+            <PropertyPath>salesorderid</PropertyPath>
+          </Collection>
+        </Annotation>
+        <Annotation Term="Common.SideEffects" Qualifier="alwaysFetchMessages">
+          <Record Type="Common.SideEffectsType">
+            <PropertyValue Property="SourceEntities">
+              <Collection>
+                <NavigationPropertyPath></NavigationPropertyPath>
+              </Collection>
+            </PropertyValue>
+            <PropertyValue Property="TargetProperties">
+              <Collection>
+                <String>DraftMessages</String>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+        <Annotation Term="Common.Messages" Path="DraftMessages"/>
+        <Annotation Term="Common.Label" String="Sale Order Header"/>
+        <Annotation Term="Core.Description" String="This entity represents the header information of a sales order."/>
+      </Annotations>
+      <Annotations Target="InternalService.EntityContainer/salesorderheader">
+        <Annotation Term="Common.DraftRoot">
+          <Record Type="Common.DraftRootType">
+            <PropertyValue Property="ActivationAction" String="InternalService.draftActivate"/>
+            <PropertyValue Property="EditAction" String="InternalService.draftEdit"/>
+            <PropertyValue Property="PreparationAction" String="InternalService.draftPrepare"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Common.SideEffects" Qualifier="alwaysFetchMessages">
+          <Record Type="Common.SideEffectsType">
+            <PropertyValue Property="SourceEntities">
+              <Collection>
+                <NavigationPropertyPath></NavigationPropertyPath>
+              </Collection>
+            </PropertyValue>
+            <PropertyValue Property="TargetProperties">
+              <Collection>
+                <String>DraftMessages</String>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/createdAt">
+        <Annotation Term="Common.Label" String="Created At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/createdBy">
+        <Annotation Term="Common.Label" String="Created By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/lastChangedAt">
+        <Annotation Term="Common.Label" String="Last Changed At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/lastChangedBy">
+        <Annotation Term="Common.Label" String="Last Changed By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderid">
+        <Annotation Term="Common.Label" String="Sales Order ID"/>
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderdate">
+        <Annotation Term="Common.Label" String="Sales Order Date"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/customerid">
+        <Annotation Term="Common.Label" String="Customer ID"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/totalamount">
+        <Annotation Term="Common.Label" String="Total Amount"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesordertype">
+        <Annotation Term="Common.Label" String="Sales Order Type"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderstatus">
+        <Annotation Term="Common.Label" String="Sales Order Status"/>
+        <Annotation Term="Validation.AllowedValues">
+          <Collection>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="Pending"/>
+              <PropertyValue Property="Value" String="Pending"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="approved"/>
+              <PropertyValue Property="Value" String="approved"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="rejected"/>
+              <PropertyValue Property="Value" String="rejected"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="completed"/>
+              <PropertyValue Property="Value" String="completed"/>
+            </Record>
+          </Collection>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorganization">
+        <Annotation Term="Common.Label" String="Sales Organization"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/distributionchannel">
+        <Annotation Term="Common.Label" String="Distribution Channel"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/division">
+        <Annotation Term="Common.Label" String="Division"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/IsActiveEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/HasActiveEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/HasDraftEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/DraftAdministrativeData">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/DraftMessages">
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem">
+        <Annotation Term="Common.SideEffects" Qualifier="alwaysFetchMessages">
+          <Record Type="Common.SideEffectsType">
+            <PropertyValue Property="SourceEntities">
+              <Collection>
+                <NavigationPropertyPath></NavigationPropertyPath>
+              </Collection>
+            </PropertyValue>
+            <PropertyValue Property="TargetProperties">
+              <Collection>
+                <String>DraftMessages</String>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+        <Annotation Term="Common.Messages" Path="DraftMessages"/>
+        <Annotation Term="Common.Label" String="Sale Order Item"/>
+      </Annotations>
+      <Annotations Target="InternalService.EntityContainer/salesorderitem">
+        <Annotation Term="Common.DraftNode">
+          <Record Type="Common.DraftNodeType">
+            <PropertyValue Property="PreparationAction" String="InternalService.draftPrepare"/>
+          </Record>
+        </Annotation>
+        <Annotation Term="Common.SideEffects" Qualifier="alwaysFetchMessages">
+          <Record Type="Common.SideEffectsType">
+            <PropertyValue Property="SourceEntities">
+              <Collection>
+                <NavigationPropertyPath></NavigationPropertyPath>
+              </Collection>
+            </PropertyValue>
+            <PropertyValue Property="TargetProperties">
+              <Collection>
+                <String>DraftMessages</String>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/createdAt">
+        <Annotation Term="Common.Label" String="Created At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/createdBy">
+        <Annotation Term="Common.Label" String="Created By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/lastChangedAt">
+        <Annotation Term="Common.Label" String="Last Changed At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/lastChangedBy">
+        <Annotation Term="Common.Label" String="Last Changed By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/salesorderitemid">
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/IsActiveEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/HasActiveEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/HasDraftEntity">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/DraftAdministrativeData">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/DraftMessages">
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData">
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftAdministrativeData}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftUUID">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftUUID}"/>
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/CreationDateTime">
+        <Annotation Term="Common.Label" String="{i18n>Draft_CreationDateTime}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/CreatedByUser">
+        <Annotation Term="Common.Label" String="{i18n>Draft_CreatedByUser}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftIsCreatedByMe">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsCreatedByMe}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/LastChangeDateTime">
+        <Annotation Term="Common.Label" String="{i18n>Draft_LastChangeDateTime}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/LastChangedByUser">
+        <Annotation Term="Common.Label" String="{i18n>Draft_LastChangedByUser}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/InProcessByUser">
+        <Annotation Term="Common.Label" String="{i18n>Draft_InProcessByUser}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftIsProcessedByMe">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsProcessedByMe}"/>
+      </Annotations>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

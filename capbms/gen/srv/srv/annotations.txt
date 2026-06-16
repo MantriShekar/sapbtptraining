@@ -1,0 +1,32 @@
+using InternalService from './internal-services';
+
+annotate InternalService.salesorderheader with @(
+    UI.LineItem : [
+        { Value : salesorderid },
+        { Value : customerid },
+        { Value : salesorderdate },
+        { Value : salesorderstatus }
+    ],
+
+    UI.Facets : [
+        {
+            $Type  : 'UI.ReferenceFacet',
+            Label  : 'General Information',
+            Target : '@UI.FieldGroup#General'
+        }
+    ],
+
+    UI.FieldGroup #General : {
+        Data : [
+            { Value : salesorderid },
+            { Value : customerid },
+            { Value : salesorderdate },
+            { Value : salesordertype },
+            { Value : salesorderstatus },
+            { Value : totalamount },
+            { Value : salesorganization },
+            { Value : distributionchannel },
+            { Value : division }
+        ]
+    }
+);

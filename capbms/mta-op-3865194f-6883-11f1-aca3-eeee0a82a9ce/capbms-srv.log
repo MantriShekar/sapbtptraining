@@ -1,0 +1,774 @@
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:28.841984] Added process: "web" (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:28.850110] Created app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:28.945686] Updating process: "web" (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:29.001578] Scaling process: "web" (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:48.625763] Uploading app package for app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:27:48.822075] Updated app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:08.499485] Creating build for app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:08.896736] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:08.942463] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:08.942561] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:10.973445] Security group rules were updated (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:11.091579] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:11.709908] Downloading app package... (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:14.631369] Downloaded app package (21.2M) (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:14.747527] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:15.675734] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:15.675762] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 15 06:28:18.463#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25598#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:15.676006] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.142899] -----> Installing binaries (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.143357] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.143420] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.143609] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.143745] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:20.144023] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:22.775730] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:22.775758] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:22.775867] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.164694] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.164725] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166751] NODE_ENV=production (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166775] NODE_HOME=/tmp/contents391984570/deps/0/node (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166778] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166781] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166783] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166787] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166806] -----> Building dependencies (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166818] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:23.166823] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.309091] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.311100] npm notice (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.311121] npm notice New minor version of npm available! 11.12.1 -> 11.17.0 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.311124] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.311126] npm notice To update run: npm install -g npm@11.17.0 (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.311129] npm notice (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:24.379932] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:25.695971] removed 74 packages in 1s (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:25.696761] 51 packages are looking for funding (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:25.696779] run `npm fund` for details (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:27.543160] [31;1m**WARNING**[0m This app may not specify any way to start a node process (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:27.543202] See: https://docs.cloudfoundry.org/buildpacks/node/node-tips.html#start (STDOUT, STG)#
+#2026 06 15 06:28:28.510#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25607#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:27.573114] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:41.156982] Exit status 0 (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:41.157042] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:41.157106] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:41.157114] Uploading droplet... (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:41.179183] Uploaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:42.049386] Creating droplet for app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:47.123709] Uploaded droplet (70.7M) (STDOUT, STG)#
+#2026 06 15 06:28:48.713#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25621#
+[PollStageAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:47.148785] Uploading complete (STDOUT, STG)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:48.401971] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, STG)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:48.402020] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, STG)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:48.450839] Staging complete for build 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, API)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:48.783346] Updated app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 ({:droplet_guid=>"1d3975b5-ae27-44e8-bb36-bf6b918db0c5"}) (STDOUT, API)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:48.973464] Creating revision for app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:49.010896] Starting app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:49.405580] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 0b37dcfd-9ec8-4e6e-52ec-3610 (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:50.445890] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:50.548057] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 0b37dcfd-9ec8-4e6e-52ec-3610 (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:51.483295] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 45eaad0d-aaba-4ee6-97fa-50898ef81df0 (STDOUT, STG)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:51.754117] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:57.708934] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:57.709152] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:57.830165] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:28:58.774#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25624#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.045696] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529792] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529820] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529823] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529826] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529832] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529835] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529838] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.529840] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.531653] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_28_58_156Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:28:58.592950] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:05.927644] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 0b37dcfd-9ec8-4e6e-52ec-3610 (STDOUT, CELL)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:05.927674] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 0b37dcfd-9ec8-4e6e-52ec-3610 (STDOUT, CELL)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:05.932532] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:05.946644] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"0b37dcfd-9ec8-4e6e-52ec-3610", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1781504945907653425, "version"=>"3a51ee23-1ddd-4875-be95-53282a317b2a"} (STDOUT, API)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:06.093715] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:06.122911] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 1045476e-a7d4-4e96-5c85-1622 (STDOUT, CELL)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:06.937388] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:29:08.798#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25637#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:07.066157] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 1045476e-a7d4-4e96-5c85-1622 (STDOUT, CELL)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:08.413562] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:08.647639] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 0b37dcfd-9ec8-4e6e-52ec-3610 (STDOUT, CELL)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:14.906825] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:14.907032] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.040760] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.267522] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794333] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794364] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794368] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794380] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794383] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794386] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794389] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.794393] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.796079] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_29_15_400Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:18.913#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10102#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:15.862848] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.135945] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 1045476e-a7d4-4e96-5c85-1622 (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.135985] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 1045476e-a7d4-4e96-5c85-1622 (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.142126] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.155288] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"1045476e-a7d4-4e96-5c85-1622", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1781504963117635083, "version"=>"3a51ee23-1ddd-4875-be95-53282a317b2a"} (STDOUT, API)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.266150] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:23.321665] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:24.081564] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:24.180595] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:25.320776] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:25.895710] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 1045476e-a7d4-4e96-5c85-1622 (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:28.230305] Downloaded droplet (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:28.230514] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:28.354965] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:29.109#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25647#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:28.572486] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086843] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086867] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086871] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086878] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086881] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086884] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086892] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086896] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.088532] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_29_28_693Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.151951] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.888887] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.888929] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.909939] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.925607] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"d76cd903-d75a-4465-50ea-66d5", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781504976885202436, "version"=>"3a51ee23-1ddd-4875-be95-53282a317b2a"} (STDOUT, API)#
+#2026 06 15 06:29:39.051#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10114#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:37.080772] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086843] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086867] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086871] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086878] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086881] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086884] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086892] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.086896] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.088532] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_29_28_693Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:29.151951] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.888887] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.888929] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.909939] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:36.925607] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"d76cd903-d75a-4465-50ea-66d5", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781504976885202436, "version"=>"3a51ee23-1ddd-4875-be95-53282a317b2a"} (STDOUT, API)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:37.080772] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:41.082223] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance d76cd903-d75a-4465-50ea-66d5 (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:42.469532] Stopping app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:42.669421] Starting app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:43.073787] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 33377a76-eb84-40cb-4d5b-d40d (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:43.849628] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:43.932661] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 33377a76-eb84-40cb-4d5b-d40d (STDOUT, CELL)#
+#2026 06 15 06:29:49.153#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25666#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:44.936716] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:51.865656] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:51.866468] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.005345] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.219368] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686173] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686202] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686210] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686214] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686219] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686221] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686224] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.686227] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.688057] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_29_52_324Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:29:59.328#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25673#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:52.751552] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.789160] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 33377a76-eb84-40cb-4d5b-d40d (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.789189] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 33377a76-eb84-40cb-4d5b-d40d (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.793046] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.804729] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"33377a76-eb84-40cb-4d5b-d40d", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1781504999769978712, "version"=>"8e33a4a7-c50f-4e0d-b74e-0e7888b59476"} (STDOUT, API)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.918775] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance e3632177-217b-4c87-6418-3923 (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:29:59.962122] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:00.794243] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:00.903770] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance e3632177-217b-4c87-6418-3923 (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:01.457361] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:02.397689] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 33377a76-eb84-40cb-4d5b-d40d (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:07.458531] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:07.458703] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:07.594335] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:07.807292] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269450] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269482] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269486] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269489] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269496] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269499] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269501] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.269509] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.271375] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_30_07_910Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:09.419#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25680#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:08.337807] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.155601] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance e3632177-217b-4c87-6418-3923 (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.155647] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance e3632177-217b-4c87-6418-3923 (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.165201] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.177715] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"e3632177-217b-4c87-6418-3923", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1781505015135850537, "version"=>"8e33a4a7-c50f-4e0d-b74e-0e7888b59476"} (STDOUT, API)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.271879] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:15.353096] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:16.129429] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:16.214691] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:17.126201] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:30:19.844#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10123#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:18.112440] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance e3632177-217b-4c87-6418-3923 (STDOUT, CELL)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:22.972047] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:22.972203] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.288773] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.485088] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938944] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938966] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938969] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938973] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938975] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938983] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938986] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.938989] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:23.940903] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_30_23_589Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:30:29.634#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25694#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:24.099572] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.253145] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.253186] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.270838] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.284690] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"8421599c-8685-44a3-6a44-c789", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781505031248894522, "version"=>"8e33a4a7-c50f-4e0d-b74e-0e7888b59476"} (STDOUT, API)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.441211] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:30:39.986#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25703#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:34.089604] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.253145] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.253186] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.270838] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.284690] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"8421599c-8685-44a3-6a44-c789", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781505031248894522, "version"=>"8e33a4a7-c50f-4e0d-b74e-0e7888b59476"} (STDOUT, API)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:31.441211] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:34.089604] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 8421599c-8685-44a3-6a44-c789 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:43.072668] Stopping app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:43.249496] Starting app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:43.491979] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 8d422dc0-2c17-4b7b-451b-7902 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:44.341808] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:44.427701] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 8d422dc0-2c17-4b7b-451b-7902 (STDOUT, CELL)#
+#2026 06 15 06:30:49.869#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25701#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:45.567841] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:51.946056] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:51.946441] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.070283] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.292970] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767943] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767971] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767975] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767978] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767982] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767985] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767988] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.767991] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.769542] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_30_52_395Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:00.295#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25714#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:30:52.847119] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.140811] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 8d422dc0-2c17-4b7b-451b-7902 (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.140846] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 8d422dc0-2c17-4b7b-451b-7902 (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.143330] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.158573] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"8d422dc0-2c17-4b7b-451b-7902", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1781505060119623811, "version"=>"18fa32c7-8a50-4303-bc7d-8f412cc8d100"} (STDOUT, API)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.273022] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 7fb57cfb-51ac-493f-65bc-2e45 (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:00.806284] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:01.154452] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:01.255847] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 7fb57cfb-51ac-493f-65bc-2e45 (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:02.287886] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:03.201667] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 8d422dc0-2c17-4b7b-451b-7902 (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:09.457367] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:09.457648] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:09.604008] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:10.367#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25719#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:09.865437] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441521] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441563] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441567] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441574] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441577] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441580] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441582] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.441586] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.443626] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_31_09_993Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:10.519278] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.050878] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 7fb57cfb-51ac-493f-65bc-2e45 (STDOUT, CELL)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.050940] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 7fb57cfb-51ac-493f-65bc-2e45 (STDOUT, CELL)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.054494] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.069334] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"7fb57cfb-51ac-493f-65bc-2e45", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1781505077027425728, "version"=>"18fa32c7-8a50-4303-bc7d-8f412cc8d100"} (STDOUT, API)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.257637] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:17.294837] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:18.066197] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:18.159112] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:20.399#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25723#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:18.490084] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:20.793066] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 7fb57cfb-51ac-493f-65bc-2e45 (STDOUT, CELL)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.112745] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.113170] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.278995] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.532466] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995167] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995205] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995209] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995213] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995216] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995218] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995220] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.995223] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:25.996247] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_31_25_637Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:31:30.496#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25729#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:26.057974] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.924457] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.924501] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.951180] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:33.011172] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"bf75ba58-3fcd-474a-674b-6a96", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781505092920714865, "version"=>"18fa32c7-8a50-4303-bc7d-8f412cc8d100"} (STDOUT, API)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:34.324140] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:31:40.513#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25740#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:35.955376] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.924457] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.924501] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:32.951180] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:33.011172] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"bf75ba58-3fcd-474a-674b-6a96", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781505092920714865, "version"=>"18fa32c7-8a50-4303-bc7d-8f412cc8d100"} (STDOUT, API)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:34.324140] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:35.955376] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance bf75ba58-3fcd-474a-674b-6a96 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:43.646604] Stopping app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:43.807290] Starting app with guid cd6be6eb-2891-4833-a133-fbeb79894a32 (STDOUT, API)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:44.037270] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance d9a5302f-850f-44af-525d-81f0 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:44.901696] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:44.998435] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance d9a5302f-850f-44af-525d-81f0 (STDOUT, CELL)#
+#2026 06 15 06:31:50.754#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25745#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:45.439285] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:51.732850] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:51.733261] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:51.914164] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.136917] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652737] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652760] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652768] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652773] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652777] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652780] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652787] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.652791] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.656692] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_31_52_249Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:00.822#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10196#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:31:52.731946] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.397473] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance d9a5302f-850f-44af-525d-81f0 (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.397513] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance d9a5302f-850f-44af-525d-81f0 (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.405309] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.416997] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"d9a5302f-850f-44af-525d-81f0", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1781505123379463478, "version"=>"939f61e5-3f5d-43a7-bf08-b7d9eedc27d5"} (STDOUT, API)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.528160] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 07ce3efb-0064-466e-5d99-0073 (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:03.642871] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:05.214277] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:05.343487] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 07ce3efb-0064-466e-5d99-0073 (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:05.797904] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:32:11.019#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25753#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:08.409997] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance d9a5302f-850f-44af-525d-81f0 (STDOUT, CELL)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.033498] Downloaded droplet (70.7M) (STDOUT, CELL)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.033653] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.199657] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.451806] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928407] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928436] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928440] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928444] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928450] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928453] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928456] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.928459] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.930269] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_32_13_560Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:21.070#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25763#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:13.995814] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:21.833735] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 07ce3efb-0064-466e-5d99-0073 (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:21.833767] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 07ce3efb-0064-466e-5d99-0073 (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:21.846450] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:21.858570] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"07ce3efb-0064-466e-5d99-0073", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1781505141814256891, "version"=>"939f61e5-3f5d-43a7-bf08-b7d9eedc27d5"} (STDOUT, API)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:21.964390] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance f2a85144-3e38-4428-424c-949f (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:22.175595] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:22.876670] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:23.139806] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance f2a85144-3e38-4428-424c-949f (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:23.397775] Downloading droplet... (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:24.724103] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 07ce3efb-0064-466e-5d99-0073 (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:25.866772] Downloaded droplet (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:25.867022] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:25.998214] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.309162] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811423] npm error Missing script: "start" (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811447] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811451] npm error Did you mean one of these? (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811472] npm error   npm star # Mark your favorite packages (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811478] npm error   npm stars # View packages marked as favorites (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811485] npm error (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811488] npm error To see a list of scripts, run: (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.811491] npm error   npm run (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.813449] npm error A complete log of this run can be found in: /home/vcap/app/.npm/_logs/2026-06-15T06_32_26_420Z-debug-0.log (STDERR, APP/PROC/WEB)#
+#2026 06 15 06:32:31.171#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-25775#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:26.878728] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 06 15 06:32:41.305#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:34.369250] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance f2a85144-3e38-4428-424c-949f (STDOUT, CELL)#
+#2026 06 15 06:32:41.305#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:34.369298] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance f2a85144-3e38-4428-424c-949f (STDOUT, CELL)#
+#2026 06 15 06:32:41.306#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:34.387046] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 15 06:32:41.306#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:34.400993] App instance exited with guid cd6be6eb-2891-4833-a133-fbeb79894a32 payload: {"instance"=>"f2a85144-3e38-4428-424c-949f", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1781505154365553106, "version"=>"939f61e5-3f5d-43a7-bf08-b7d9eedc27d5"} (STDOUT, API)#
+#2026 06 15 06:32:41.306#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:34.898559] Exit status 137 (STDOUT, PROXY)#
+#2026 06 15 06:32:41.306#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-srv#flowable-async-job-executor-thread-10641#
+[PollStartAppStatusExecution] cd6be6eb-2891-4833-a133-fbeb79894a32 [2026-06-15T06:32:37.162217] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance f2a85144-3e38-4428-424c-949f (STDOUT, CELL)#

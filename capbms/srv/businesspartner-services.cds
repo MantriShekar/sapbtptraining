@@ -1,4 +1,6 @@
-@path: '/BusinessPartners'
+using { bms.cap as bms } from '../db/custom-schema';
+//@path: '/BusinessPartners'
+@path :'businesspartner-services'
 
 service BusinessPartnerService {
     @odata.draft.enabled: true

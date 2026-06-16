@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+  </edmx:Reference>
+  <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Validation.V1.xml" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Include Alias="Validation" Namespace="Org.OData.Validation.V1"/>
+  </edmx:Reference>
+  <edmx:DataServices m:DataServiceVersion="2.0">
+    <Schema Namespace="InternalService" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <Annotation Term="Core.Links" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Collection>
+          <Record>
+            <PropertyValue Property="rel" String="author"/>
+            <PropertyValue Property="href" String="https://cap.cloud.sap"/>
+          </Record>
+        </Collection>
+      </Annotation>
+      <EntityContainer Name="EntityContainer" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="salesorderheader" EntityType="InternalService.salesorderheader"/>
+        <FunctionImport Name="salesorderheader_draftPrepare" EntitySet="salesorderheader" ReturnType="InternalService.salesorderheader" m:HttpMethod="POST" sap:action-for="InternalService.salesorderheader">
+          <Parameter Name="salesorderid" Type="Edm.Guid" Nullable="false" Mode="In"/>
+          <Parameter Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" Mode="In"/>
+          <Parameter Name="SideEffectsQualifier" Type="Edm.String" Mode="In" Nullable="true"/>
+        </FunctionImport>
+        <FunctionImport Name="salesorderheader_draftActivate" EntitySet="salesorderheader" ReturnType="InternalService.salesorderheader" m:HttpMethod="POST" sap:action-for="InternalService.salesorderheader">
+          <Parameter Name="salesorderid" Type="Edm.Guid" Nullable="false" Mode="In"/>
+          <Parameter Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" Mode="In"/>
+        </FunctionImport>
+        <FunctionImport Name="salesorderheader_draftEdit" EntitySet="salesorderheader" ReturnType="InternalService.salesorderheader" m:HttpMethod="POST" sap:action-for="InternalService.salesorderheader">
+          <Parameter Name="salesorderid" Type="Edm.Guid" Nullable="false" Mode="In"/>
+          <Parameter Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" Mode="In"/>
+          <Parameter Name="PreserveChanges" Type="Edm.Boolean" Mode="In" Nullable="true"/>
+        </FunctionImport>
+        <EntitySet Name="salesorderitem" EntityType="InternalService.salesorderitem"/>
+        <FunctionImport Name="salesorderitem_draftPrepare" EntitySet="salesorderitem" ReturnType="InternalService.salesorderitem" m:HttpMethod="POST" sap:action-for="InternalService.salesorderitem">
+          <Parameter Name="salesorderitemid" Type="Edm.Guid" Nullable="false" Mode="In"/>
+          <Parameter Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false" Mode="In"/>
+          <Parameter Name="SideEffectsQualifier" Type="Edm.String" Mode="In" Nullable="true"/>
+        </FunctionImport>
+        <EntitySet Name="DraftAdministrativeData" EntityType="InternalService.DraftAdministrativeData"/>
+        <AssociationSet Name="salesorderheader_DraftAdministrativeData" Association="InternalService.salesorderheader_DraftAdministrativeData">
+          <End Role="salesorderheader" EntitySet="salesorderheader"/>
+          <End Role="DraftAdministrativeData" EntitySet="DraftAdministrativeData"/>
+        </AssociationSet>
+        <AssociationSet Name="salesorderheader_SiblingEntity" Association="InternalService.salesorderheader_SiblingEntity">
+          <End Role="salesorderheader" EntitySet="salesorderheader"/>
+          <End Role="salesorderheader1" EntitySet="salesorderheader"/>
+        </AssociationSet>
+        <AssociationSet Name="salesorderitem_soheader" Association="InternalService.salesorderitem_soheader">
+          <End Role="salesorderitem" EntitySet="salesorderitem"/>
+          <End Role="salesorderheader" EntitySet="salesorderheader"/>
+        </AssociationSet>
+        <AssociationSet Name="salesorderitem_DraftAdministrativeData" Association="InternalService.salesorderitem_DraftAdministrativeData">
+          <End Role="salesorderitem" EntitySet="salesorderitem"/>
+          <End Role="DraftAdministrativeData" EntitySet="DraftAdministrativeData"/>
+        </AssociationSet>
+        <AssociationSet Name="salesorderitem_SiblingEntity" Association="InternalService.salesorderitem_SiblingEntity">
+          <End Role="salesorderitem" EntitySet="salesorderitem"/>
+          <End Role="salesorderitem1" EntitySet="salesorderitem"/>
+        </AssociationSet>
+      </EntityContainer>
+      <EntityType Name="salesorderheader">
+        <Key>
+          <PropertyRef Name="salesorderid"/>
+          <PropertyRef Name="IsActiveEntity"/>
+        </Key>
+        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="createdBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="lastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="lastChangedBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="salesorderid" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="salesorderdate" Type="Edm.DateTime" sap:display-format="Date"/>
+        <Property Name="customerid" Type="Edm.String" MaxLength="10"/>
+        <Property Name="totalamount" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="salesordertype" Type="Edm.String" MaxLength="20"/>
+        <Property Name="salesorderstatus" Type="Edm.String"/>
+        <Property Name="salesorganization" Type="Edm.String" MaxLength="10"/>
+        <Property Name="distributionchannel" Type="Edm.String" MaxLength="10"/>
+        <Property Name="division" Type="Edm.String" MaxLength="10"/>
+        <NavigationProperty Name="soitems" Relationship="InternalService.salesorderitem_soheader" FromRole="salesorderheader" ToRole="salesorderitem"/>
+        <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false"/>
+        <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false"/>
+        <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false"/>
+        <NavigationProperty Name="DraftAdministrativeData" Relationship="InternalService.salesorderheader_DraftAdministrativeData" FromRole="salesorderheader" ToRole="DraftAdministrativeData"/>
+        <Property Name="DraftAdministrativeData_DraftUUID" Type="Edm.Guid"/>
+        <NavigationProperty Name="SiblingEntity" Relationship="InternalService.salesorderheader_SiblingEntity" FromRole="salesorderheader" ToRole="salesorderheader1"/>
+      </EntityType>
+      <EntityType Name="salesorderitem">
+        <Key>
+          <PropertyRef Name="salesorderitemid"/>
+          <PropertyRef Name="IsActiveEntity"/>
+        </Key>
+        <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="createdBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="lastChangedAt" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="lastChangedBy" Type="Edm.String" MaxLength="50"/>
+        <Property Name="salesorderitemid" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="salesorderid" Type="Edm.Guid"/>
+        <Property Name="productid" Type="Edm.String" MaxLength="10"/>
+        <Property Name="quantity" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="unitprice" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <Property Name="totalprice" Type="Edm.Decimal" Precision="15" Scale="2"/>
+        <NavigationProperty Name="soheader" Relationship="InternalService.salesorderitem_soheader" FromRole="salesorderitem" ToRole="salesorderheader"/>
+        <Property Name="soheader_salesorderid" Type="Edm.Guid"/>
+        <Property Name="IsActiveEntity" Type="Edm.Boolean" Nullable="false"/>
+        <Property Name="HasActiveEntity" Type="Edm.Boolean" Nullable="false"/>
+        <Property Name="HasDraftEntity" Type="Edm.Boolean" Nullable="false"/>
+        <NavigationProperty Name="DraftAdministrativeData" Relationship="InternalService.salesorderitem_DraftAdministrativeData" FromRole="salesorderitem" ToRole="DraftAdministrativeData"/>
+        <Property Name="DraftAdministrativeData_DraftUUID" Type="Edm.Guid"/>
+        <NavigationProperty Name="SiblingEntity" Relationship="InternalService.salesorderitem_SiblingEntity" FromRole="salesorderitem" ToRole="salesorderitem1"/>
+      </EntityType>
+      <EntityType Name="DraftAdministrativeData">
+        <Key>
+          <PropertyRef Name="DraftUUID"/>
+        </Key>
+        <Property Name="DraftUUID" Type="Edm.Guid" Nullable="false"/>
+        <Property Name="CreationDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="CreatedByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="DraftIsCreatedByMe" Type="Edm.Boolean"/>
+        <Property Name="LastChangeDateTime" Type="Edm.DateTimeOffset" Precision="7"/>
+        <Property Name="LastChangedByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="InProcessByUser" Type="Edm.String" MaxLength="256"/>
+        <Property Name="DraftIsProcessedByMe" Type="Edm.Boolean"/>
+      </EntityType>
+      <Association Name="salesorderheader_DraftAdministrativeData">
+        <End Role="salesorderheader" Type="InternalService.salesorderheader" Multiplicity="*"/>
+        <End Role="DraftAdministrativeData" Type="InternalService.DraftAdministrativeData" Multiplicity="0..1"/>
+        <ReferentialConstraint>
+          <Principal Role="DraftAdministrativeData">
+            <PropertyRef Name="DraftUUID"/>
+          </Principal>
+          <Dependent Role="salesorderheader">
+            <PropertyRef Name="DraftAdministrativeData_DraftUUID"/>
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      <Association Name="salesorderheader_SiblingEntity">
+        <End Role="salesorderheader" Type="InternalService.salesorderheader" Multiplicity="*"/>
+        <End Role="salesorderheader1" Type="InternalService.salesorderheader" Multiplicity="0..1"/>
+      </Association>
+      <Association Name="salesorderitem_soheader">
+        <End Role="salesorderitem" Type="InternalService.salesorderitem" Multiplicity="*"/>
+        <End Role="salesorderheader" Type="InternalService.salesorderheader" Multiplicity="0..1">
+          <OnDelete Action="Cascade"/>
+        </End>
+      </Association>
+      <Association Name="salesorderitem_DraftAdministrativeData">
+        <End Role="salesorderitem" Type="InternalService.salesorderitem" Multiplicity="*"/>
+        <End Role="DraftAdministrativeData" Type="InternalService.DraftAdministrativeData" Multiplicity="0..1"/>
+        <ReferentialConstraint>
+          <Principal Role="DraftAdministrativeData">
+            <PropertyRef Name="DraftUUID"/>
+          </Principal>
+          <Dependent Role="salesorderitem">
+            <PropertyRef Name="DraftAdministrativeData_DraftUUID"/>
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      <Association Name="salesorderitem_SiblingEntity">
+        <End Role="salesorderitem" Type="InternalService.salesorderitem" Multiplicity="*"/>
+        <End Role="salesorderitem1" Type="InternalService.salesorderitem" Multiplicity="0..1"/>
+      </Association>
+      <Annotations Target="InternalService.salesorderheader" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.LineItem">
+          <Collection>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderid"/>
+              <PropertyValue Property="Label" String="Sales Order ID"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderdate"/>
+              <PropertyValue Property="Label" String="Date"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="customerid"/>
+              <PropertyValue Property="Label" String="Customer"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="totalamount"/>
+              <PropertyValue Property="Label" String="Amount"/>
+            </Record>
+            <Record Type="UI.DataField">
+              <PropertyValue Property="Value" Path="salesorderstatus"/>
+              <PropertyValue Property="Label" String="Status"/>
+            </Record>
+          </Collection>
+        </Annotation>
+        <Annotation Term="UI.SelectionFields">
+          <Collection>
+            <PropertyPath>customerid</PropertyPath>
+            <PropertyPath>division</PropertyPath>
+            <PropertyPath>distributionchannel</PropertyPath>
+            <PropertyPath>salesorderid</PropertyPath>
+          </Collection>
+        </Annotation>
+        <Annotation Term="Common.Label" String="Sale Order Header"/>
+        <Annotation Term="Core.Description" String="This entity represents the header information of a sales order."/>
+      </Annotations>
+      <Annotations Target="InternalService.EntityContainer/salesorderheader" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.DraftRoot">
+          <Record Type="Common.DraftRootType">
+            <PropertyValue Property="ActivationAction" String="InternalService.EntityContainer/salesorderheader_draftActivate"/>
+            <PropertyValue Property="EditAction" String="InternalService.EntityContainer/salesorderheader_draftEdit"/>
+            <PropertyValue Property="PreparationAction" String="InternalService.EntityContainer/salesorderheader_draftPrepare"/>
+          </Record>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/createdAt" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Created At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/createdBy" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Created By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/lastChangedAt" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Last Changed At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/lastChangedBy" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Last Changed By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderid" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sales Order ID"/>
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderdate" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sales Order Date"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/customerid" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Customer ID"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/totalamount" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Total Amount"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesordertype" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sales Order Type"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorderstatus" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sales Order Status"/>
+        <Annotation Term="Validation.AllowedValues">
+          <Collection>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="Pending"/>
+              <PropertyValue Property="Value" String="Pending"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="approved"/>
+              <PropertyValue Property="Value" String="approved"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="rejected"/>
+              <PropertyValue Property="Value" String="rejected"/>
+            </Record>
+            <Record Type="Validation.AllowedValue">
+              <Annotation Term="Core.SymbolicName" String="completed"/>
+              <PropertyValue Property="Value" String="completed"/>
+            </Record>
+          </Collection>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/salesorganization" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sales Organization"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/distributionchannel" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Distribution Channel"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/division" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Division"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/IsActiveEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/HasActiveEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/HasDraftEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/DraftAdministrativeData" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderheader/DraftAdministrativeData_DraftUUID" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Sale Order Item"/>
+      </Annotations>
+      <Annotations Target="InternalService.EntityContainer/salesorderitem" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.DraftNode">
+          <Record Type="Common.DraftNodeType">
+            <PropertyValue Property="PreparationAction" String="InternalService.EntityContainer/salesorderitem_draftPrepare"/>
+          </Record>
+        </Annotation>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/createdAt" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Created At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/createdBy" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Created By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/lastChangedAt" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Last Changed At"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/lastChangedBy" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="Last Changed By"/>
+        <Annotation Term="Core.Computed" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/salesorderitemid" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/IsActiveEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/HasActiveEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/HasDraftEntity" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/DraftAdministrativeData" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.salesorderitem/DraftAdministrativeData_DraftUUID" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftAdministrativeData}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftUUID" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftUUID}"/>
+        <Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/CreationDateTime" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_CreationDateTime}"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/CreatedByUser" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_CreatedByUser}"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftIsCreatedByMe" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsCreatedByMe}"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/LastChangeDateTime" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_LastChangeDateTime}"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/LastChangedByUser" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_LastChangedByUser}"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/InProcessByUser" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="Common.Label" String="{i18n>Draft_InProcessByUser}"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+      </Annotations>
+      <Annotations Target="InternalService.DraftAdministrativeData/DraftIsProcessedByMe" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+        <Annotation Term="UI.Hidden" Bool="true"/>
+        <Annotation Term="UI.HiddenFilter" Bool="true"/>
+        <Annotation Term="Common.Label" String="{i18n>Draft_DraftIsProcessedByMe}"/>
+      </Annotations>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

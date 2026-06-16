@@ -1,4 +1,7 @@
-@path: '/northwind'
+using {bms.cap as bms} from '../db/custom-schema';
+
+@path: '/northwind-services'
+//@requires: 'AdminRole'
 service NorthwindService {
  
   // entity Invoices {
@@ -10,6 +13,7 @@ service NorthwindService {
  
  
   // NEW
+
   entity Invoices {
     key OrderID      : Integer;
         CustomerID   : String;

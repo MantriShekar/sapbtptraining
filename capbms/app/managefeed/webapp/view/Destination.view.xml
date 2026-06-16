@@ -1,0 +1,86 @@
+<mvc:View controllerName="com.fee.managefeed.controller.Destination"
+    displayBlock="true"
+      xmlns:mvc="sap.ui.core.mvc"
+    xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:core="sap.ui.core"
+    height="100%"
+    xmlns="sap.m">
+    <Page id="page1" title="{i18n>title}" class="customPageBg">
+    <Table
+    id="usersTable"
+    items="{jsonApi>/Users}">
+
+    <columns>
+        <Column>
+            <Text text="ID"/>
+        </Column>
+
+        <Column>
+            <Text text="Name"/>
+        </Column>
+
+        <Column>
+            <Text text="Username"/>
+        </Column>
+
+        <Column>
+            <Text text="Email"/>
+        </Column>
+    </columns>
+
+    <items>
+        <ColumnListItem>
+            <cells>
+                <Text text="{jsonApi>id}"/>
+                <Text text="{jsonApi>name}"/>
+                <Text text="{jsonApi>username}"/>
+                <Text text="{jsonApi>email}"/>
+            </cells>
+        </ColumnListItem>
+    </items>
+
+</Table>
+    <HBox id="hb5">
+    <Text id="text1" text="Sales Order Header Report" class="sapUiMediumMargin"></Text>
+    </HBox>
+    <HBox id="hb7" width="100%" alignItems="Center" class="sapUiSmallMargin">
+        <Button id="btn" text="Click Me" press="onbackpress"></Button>
+       <Button id="btn2" text="Create Sales Order" press="onCreateSalesOrderPress"></Button>
+    </HBox>
+ 
+    <HBox id="hb6" class="sapUiSmallMargin">
+ 
+    <Table id="table1" items="{/salesorderheader}" class="sapUiSmallMargin">
+        <columns>
+            <Column id="_IDGenColumn">
+                <Text id="_IDGenText3" text="Sales Order ID"></Text>
+            </Column>
+            <Column id="_IDGenColumn1">
+                <Text id="_IDGenText4" text="Customer ID"></Text>
+            </Column>
+            <Column id="_IDGenColumn2">
+                <Text id="_IDGenText5" text="Sales Order type "></Text>
+            </Column>
+            <Column id="_IDGenColumn3" >
+            <Text id="_IDGenText10"  text="Total Amount"></Text>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem id="_IDGenColumnListItem1">
+                <cells>
+                    <Text id="_IDGenText6" text="{salesorderid}"></Text>
+                    <Text id="_IDGenText7" text="{customerid}"></Text>
+                    <Text id="_IDGenText8" text="{salesordertype}"></Text>
+                    <Text id="_IDGenText11" text="{totalamount}"></Text>
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+ 
+    </HBox>
+ 
+ 
+    </Page>
+   
+</mvc:View>

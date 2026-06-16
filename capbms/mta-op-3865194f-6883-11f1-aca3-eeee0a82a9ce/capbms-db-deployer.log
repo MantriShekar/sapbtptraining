@@ -1,0 +1,432 @@
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.721592] Added process: "web" (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.729094] Created app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.820006] Updating process: "web" (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.877438] Scaling process: "web" (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:48.346004] Uploading app package for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:48.580018] Updated app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.405234] Creating build for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.880945] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.909602] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.909710] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:59.785116] Security group rules were updated (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:59.874326] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.371395] Downloading app package... (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.746957] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.871975] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.966977] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.967004] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.967081] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371041] -----> Installing binaries (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371074] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371083] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371114] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371234] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371413] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.889970] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.890] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:08.354#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25590#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.890018] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.273041] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.273070] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274708] NODE_ENV=production (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274725] NODE_HOME=/tmp/contents2067654664/deps/0/node (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274728] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274731] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274733] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274736] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274752] -----> Building dependencies (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274754] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274807] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.804095] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.863913] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.325943] up to date in 381ms (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.326551] 4 packages are looking for funding (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.326717] run `npm fund` for details (STDOUT, STG)#
+#2026 06 15 06:28:18.456#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25604#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:10.026668] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809663] Exit status 0 (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809717] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809762] Uploading droplet... (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809822] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.830867] Uploaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:20.585520] Creating droplet for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:25.653206] Uploaded droplet (58.5M) (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:25.673717] Uploading complete (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.276539] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.276602] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:28.512#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25605#
+[PollStageAppStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.329178] Staging complete for build 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.721592] Added process: "web" (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.729094] Created app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.820006] Updating process: "web" (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:29.877438] Scaling process: "web" (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:48.346004] Uploading app package for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:48.580018] Updated app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.405234] Creating build for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.880945] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.909602] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:58.909710] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:59.785116] Security group rules were updated (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:27:59.874326] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.371395] Downloading app package... (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.746957] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.871975] -----> Nodejs Buildpack version 1.9.1 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.966977] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.967004] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:00.967081] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371041] -----> Installing binaries (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371074] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371083] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371114] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371234] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:05.371413] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.889970] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.890] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:07.890018] Copy [/tmp/buildpacks/ac648aa71a7866ca/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.273041] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.273070] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274708] NODE_ENV=production (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274725] NODE_HOME=/tmp/contents2067654664/deps/0/node (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274728] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274731] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274733] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274736] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274752] -----> Building dependencies (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274754] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.274807] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.804095] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:08.863913] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.325943] up to date in 381ms (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.326551] 4 packages are looking for funding (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:09.326717] run `npm fund` for details (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:10.026668] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809663] Exit status 0 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809717] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809762] Uploading droplet... (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.809822] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:19.830867] Uploaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:20.585520] Creating droplet for app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:25.653206] Uploaded droplet (58.5M) (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:25.673717] Uploading complete (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.276539] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.276602] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:27.329178] Staging complete for build 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:28.597768] Updated app with guid f6909c76-13b8-4db5-a436-35ad5615d6e6 ({:droplet_guid=>"520a36eb-a988-4dc6-a6db-f29f6202c6b4"}) (STDOUT, API)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:29.236408] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 78d30285-7931-49ef-8ada-81c585a1ec47 (STDOUT, CELL)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:29.700516] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 53f546db-33c7-4020-8b0e-4f6d875e6cd6 (STDOUT, STG)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:29.999561] Security group rules were updated (STDOUT, CELL)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:30.099667] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 78d30285-7931-49ef-8ada-81c585a1ec47 (STDOUT, CELL)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:34.770213] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:34.973037] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.442235] > start (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.442264] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596419] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596545] { (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596558] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596561] { (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596564] "name": "capbms-db", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596567] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596571] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596573] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596576] "schema": "9C957B55E1124654814E5C828653FC99", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596582] "database_id": "5e546647-4a63-4d85-a894-e74d49b0a327", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596600] "user": "9C957B55E1124654814E5C828653FC99_1EEI7TW5BUYD5TSIA1KFW9WFS_RT", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596606] "hdi_user": "9C957B55E1124654814E5C828653FC99_1EEI7TW5BUYD5TSIA1KFW9WFS_DT" (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596609] }, (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596615] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596617] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596620] "database", (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596623] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596625] ] (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596628] } (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596630] ] (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:35.596657] } (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.104265] @sap/hdi-deploy, version 5.6.1 (mode default), server version 4.00.000.00.1778573239 (4.0.0.0), cloud version 2026.2.14, node version 24.15.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.104459] Deployment started at 2026-06-15 06:28:36 (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.104807] Using hdb@2.27.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.123053] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.123297] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.126826] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.126866] 2 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.126869] 22 files collected (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.126997] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.127011] Target service: capbms-db (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.499914] Previous build with request ID 73 finished at 2026-06-10T04:13:07.165 with status Rolled back and message: Starting make in the container "9C957B55E1124654814E5C828653FC99" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.499954] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.500055] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.500169] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.500224] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.503552] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.503727] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.503801] Connecting to the container "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.602125] Connecting to the container "9C957B55E1124654814E5C828653FC99"... ok (0s 98ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.602153] Locking the container "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.964657] Locking the container "9C957B55E1124654814E5C828653FC99"... ok (0s 362ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:36.964685] Synchronizing files with the container "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:37.774562] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.114705] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.114740] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:38.554#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25620#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.114764] Writing 2 items (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.499715] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.499746] Synchronizing files with the container "9C957B55E1124654814E5C828653FC99"... ok (1s 535ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500089] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500106] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500109] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500241] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500607] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500620] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500639] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:38.500781] Deploying to the container "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:39.143768] Polling messages for request id: 82 (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:39.202763] Starting make in the container "9C957B55E1124654814E5C828653FC99" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:39.202810] Disabling table replication for the container schema "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:39.202903] Disabling table replication for the container schema "9C957B55E1124654814E5C828653FC99"... ok (0s 27ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:39.202962] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.239432] Migrating libraries... ok (3s 440ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.239560] Making... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.239734] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.239739] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.239835] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.659406] Preparing the make transaction... ok (0s 951ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.659525] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669048] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669167] Expanding... ok (0s 78ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669211] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669272] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669307] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669356] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669393] Calculating dependencies... ok (0s 78ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669444] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669481] Making... ok (1s 264ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669531] Enabling table replication for the container schema "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669568] Enabling table replication for the container schema "9C957B55E1124654814E5C828653FC99"... ok (0s 26ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669622] Starting make in the container "9C957B55E1124654814E5C828653FC99" with 0 files to deploy, 0 files to undeploy... ok (4s 776ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.669735] Deploying to the container "9C957B55E1124654814E5C828653FC99"... ok (5s 169ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.670231] No default-access-role handling needed; global role "9C957B55E1124654814E5C828653FC99::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.670379] Unlocking the container "9C957B55E1124654814E5C828653FC99"... (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.671331] Unlocking the container "9C957B55E1124654814E5C828653FC99"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.677115] Deployment to container 9C957B55E1124654814E5C828653FC99 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.677997] Deployment ended at 2026-06-15 06:28:43 (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.678476] (8s 192ms) (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.701499] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.701533] npm notice New minor version of npm available! 11.12.1 -> 11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.701536] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.701539] npm notice To update run: npm install -g npm@11.17.0 (STDERR, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.701541] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:43.782219] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:44.252899] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 78d30285-7931-49ef-8ada-81c585a1ec47 (STDOUT, CELL)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:44.252938] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 78d30285-7931-49ef-8ada-81c585a1ec47 (STDOUT, CELL)#
+#2026 06 15 06:28:48.643#Z#DEBUG#3865194f-6883-11f1-aca3-eeee0a82a9ce.capbms-db-deployer#flowable-async-job-executor-thread-25628#
+[PollExecuteTaskStatusExecution] f6909c76-13b8-4db5-a436-35ad5615d6e6 [2026-06-15T06:28:47.072814] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 78d30285-7931-49ef-8ada-81c585a1ec47 (STDOUT, CELL)#

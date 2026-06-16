@@ -1,6 +1,83 @@
 <mvc:View controllerName="com.fee.managefeed.controller.Home"
     xmlns:mvc="sap.ui.core.mvc"
+    	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable"
     xmlns="sap.m">
-    <Page id="hpage" title="{i18n>title}">
-    </Page>
+    <Page id="hpage" title="My Navigated Page">
+	<Table
+    id="salesOrderTable"
+    items="{
+        path:'/salesorderheader'
+    }">
+
+    <columns>
+        <Column>
+            <Text text="Sales Order Type"/>
+        </Column>
+        <Column>
+            <Text text="Sales Order Status"/>
+        </Column>
+        <Column>
+            <Text text="Sales Organization"/>
+        </Column>
+        <Column>
+            <Text text="Distribution Channel"/>
+        </Column>
+        <Column>
+            <Text text="Division"/>     
+        </Column>
+        <Column>   <Text text="Customer"/> </Column>
+
+        <Column>
+            <Text text="Amount"/>
+        </Column>
+    </columns>
+
+    <items>
+        <ColumnListItem>
+            <cells>
+            <Text text="{salesordertype}"/>
+            <Text text="{salesorderstatus}"/>
+            <Text text="{salesorganization}"/>
+            <Text text="{distributionchannel}"/>
+            <Text text="{division}"/>
+            <Text text="{customerid}"/>
+            <Text text="{totalamount}"/>
+            </cells>
+        </ColumnListItem>
+    </items>
+</Table>
+<Table
+    id="BusinessPartner"
+    items="{northwind>/BusinessPartners}">
+
+    <columns>
+        <Column>
+            <Text text="Customer Id"/>
+        </Column>
+
+        <Column>
+            <Text text="Customer Name"/>
+        </Column>
+    </columns>
+
+    <items>
+        <ColumnListItem>
+            <cells>
+                <Text text="{northwind>businessPartnerNumber}"/>
+                <Text text="{northwind>customerCode}"/>
+            </cells>
+        </ColumnListItem>
+    </items>
+
+</Table>
+  <smartTable:SmartTable
+        id="idSmartTable"
+        entitySet="salesorderheader"
+        tableType="ResponsiveTable"
+        enableAutoBinding="true"
+        useVariantManagement="true"
+        useTablePersonalisation="true"
+        showRowCount="true"/>
+    	</Page>
 </mvc:View>
