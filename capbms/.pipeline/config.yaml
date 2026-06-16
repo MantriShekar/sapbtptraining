@@ -1,0 +1,6 @@
+general:
+  buildTool: "mta"
+  gitHttpCredentialsId: "githubauthtoken"
+ 
+cloudFoundry:
+  cfCredentialsId: "sapbtp"
